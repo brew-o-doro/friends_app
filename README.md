@@ -1,6 +1,6 @@
 # README
 
-TODO: I'm on CRUD functionality
+TODO: STYLE APP WITH BOOTSTRAP
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
