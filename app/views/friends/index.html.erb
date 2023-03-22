@@ -2,13 +2,17 @@
 
 <h1>Your Friend List</h1>
 
-<div id="friends">
+<div id="friends" class="card w-50 bg-light" >
+  <div class="card-body">
+    
+   
   <% @friends.each do |friend| %>
-    <%= render friend %>
+    <%= render friend, class:"card-text" %>
     <p>
-      <%= link_to "Show this friend", friend %>
+      <%= link_to "Show this friend", friend, class:"btn btn-outline-primary btn-sm" %>
     </p>
   <% end %>
+  </div>
 </div>
-
-<%= link_to "New friend", new_friend_path %>
+<br>
+<%= link_to "New friend", new_friend_path, class:"btn btn-primary" %>
